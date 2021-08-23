@@ -1,0 +1,67 @@
+@import url('https://www.apple.com/wss/fonts/SF-Pro-Text/v2/sf-pro-text_semibold.woff2');
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+   
+
+}
+
+li,a {
+    line-height: 3.14286;
+    font-weight: 300;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 15px ;
+    height: 44px;
+    opacity: .8;
+    background: no-repeat;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+header {
+
+    
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+#banner_one, #banner_two, #banner_three {
+   
+    background-size: cover;
+    height: 90vh;
+    background-position-y: -150px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.banner > * {
+    display: flex;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 40pt;
+}
+
+.banner h2 {
+    font-size: 26pt;
+    font-weight: lighter;
+}
+
+
+#big-bg{
+    background-color: whitesmoke;
+    height: 30px;
+    width: 50px;
+
+}
+
+
